@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "pipeline-service-instance": {
-            "description": "The pipeline service instance",
+            "description": "Service instance",
             "type": "string"
         },
         "dev-region": {
