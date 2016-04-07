@@ -65,15 +65,15 @@
           "url": "https://localhost:3800/devops/setup/bm-helper/helper.html"
        },
        {
-          "type": "link",
-          "title": "Create a new Delivery Pipeline",
-          "url": "https://daily-console.stage1.ng.bluemix.net/catalog/services/delivery-pipeline/"
-       },
-       {
           "type": "select",
           "title": "Service instance",
           "key": "pipeline-service-instance"
-       },        
+       }, 
+       {
+          "type": "link",
+          "label": "Create a new Delivery Pipeline",
+          "url": "https://daily-console.stage1.ng.bluemix.net/catalog/services/delivery-pipeline/"
+       },       
        {
           "type": "text",
           "readonly": false,
