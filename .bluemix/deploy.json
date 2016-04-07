@@ -71,7 +71,7 @@
        }, 
        {
           "type": "link",
-          "label": "Create a new Delivery Pipeline",
+          "label": "Create a new Service instance",
           "url": "https://daily-console.stage1.ng.bluemix.net/catalog/services/delivery-pipeline/"
        },       
        {
