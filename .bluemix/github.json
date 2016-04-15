@@ -34,7 +34,7 @@
       {
         "type": "selectfieldset",
         "key": "action",
-        "title": "Repository type:",
+        "title": "Repository type",
         "titleMap": {
           "new": "New",
           "fork": "Fork",
