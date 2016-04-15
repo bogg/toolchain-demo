@@ -5,7 +5,7 @@
     "longDescription": "The GitHub Service allows you to create or use an existing GitHub repository to store your source code.",
     "type": "object",
     "properties": {
-     "type": {
+     "cloneType": {
         "title": "Repository Type",
         "description": "Link to, fork, or clone an existing repository",
         "type": "string",
@@ -35,7 +35,7 @@
       },
       {
         "type": "selectfieldset",
-        "key": "type",
+        "key": "cloneType",
         "titleMap": {
           "new": "New",
           "fork": "Fork",
