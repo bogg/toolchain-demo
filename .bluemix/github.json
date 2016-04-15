@@ -5,21 +5,23 @@
     "longDescription": "The GitHub Service allows you to create or use an existing GitHub repository to store your source code.",
     "type": "object",
     "properties": {
-      "action": {
+     "type": {
+        "title": "Repository Type",
+        "description": "Link to, fork, or clone an existing repository",
         "type": "string",
         "enum": [ "new", "fork", "clone", "link" ]
       },
-      "repoName": {
+      "repo_name": {
         "type": "string",
-        "title": "New repository name",
+        "title": "New Repo name",
         "description": "The name to be used for your new repo."
       },
-      "repoURL": {
+      "repo_url": {
         "type": "string",
-        "title": "Source repository URL",
+        "title": "Source Repo URL",
         "description": "The URL of the source repo."
       },
-      "issues": {
+      "has_issues": {
         "type": "boolean",
         "title": "Use GitHub Issues",
         "description": "Do you wish to enable GitHub Issues for your new project?"
@@ -33,7 +35,7 @@
       },
       {
         "type": "selectfieldset",
-        "key": "action",
+        "key": "type",
         "title": "Repository type",
         "titleMap": {
           "new": "New",
@@ -45,29 +47,29 @@
           {
             "type": "section",
             "items": [
-                "repoName",
-                "issues"
+                "repo_name",
+                "has_issues"
               ]
           },
           {
             "type": "section",
             "items": [
-                "repoURL",
-                "issues"
+                "repo_url",
+                "has_issues"
             ]
           },
           {
             "type": "section",
             "items": [
-                "repoName",
-                "repoURL",
-                "issues"
+                "repo_name",
+                "repo_url",
+                "has_issues"
             ]
           },
           {
             "type": "section",
             "items": [
-                "repoURL"
+                "repo_url"
             ]
           }
         ]
