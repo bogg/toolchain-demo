@@ -11,12 +11,12 @@
       },
       "repoName": {
         "type": "string",
-        "title": "New Repo name",
+        "title": "New repository name:",
         "description": "The name to be used for your new repo."
       },
       "repoURL": {
         "type": "string",
-        "title": "Source Repo URL",
+        "title": "Source repository URL:",
         "description": "The URL of the source repo."
       },
       "issues": {
@@ -34,7 +34,7 @@
       {
         "type": "selectfieldset",
         "key": "action",
-        "title": "What type of Repo?",
+        "title": "Repository type:",
         "titleMap": {
           "new": "New",
           "fork": "Fork",
