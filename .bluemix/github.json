@@ -27,7 +27,7 @@
         "description": "Do you wish to enable GitHub Issues for your new project?"
       }
     },
-    "required": ["catalog-api-repo_name", "catalog-api-repo_url", "orders-api-repo_name", "orders-api-repo_url", "ui-repo_name",  "ui-repo_url"],
+    "required": [],
     "form": [
       {
         "type": "validator",
