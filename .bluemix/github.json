@@ -29,10 +29,6 @@
     },
     "required": [],
     "form": [
-        {
-        "type": "validator",
-         "url": "/devops/setup/bm-helper/github_helper.html"
-        },
       {
         "type": "selectfieldset",
         "key": "cloneType",
