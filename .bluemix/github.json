@@ -29,6 +29,10 @@
     },
     "required": [],
     "form": [
+        {
+        "type": "validator",
+         "url": "https://devops.stage1.ng.bluemix.net/devops/setup/bm-helper/github_helper.html"
+        },
       {
         "type": "selectfieldset",
         "key": "cloneType",
