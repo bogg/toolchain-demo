@@ -12,6 +12,7 @@
       "repoName": {
         "type": "string",
         "title": "Name of New Repo"
+        "description": "The name to be used for your new repo."
       },
       "repoURL": {
         "type": "string",
