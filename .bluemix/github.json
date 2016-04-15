@@ -11,12 +11,12 @@
       },
       "repoName": {
         "type": "string",
-        "title": "New repository name:",
+        "title": "New repository name",
         "description": "The name to be used for your new repo."
       },
       "repoURL": {
         "type": "string",
-        "title": "Source repository URL:",
+        "title": "Source repository URL",
         "description": "The URL of the source repo."
       },
       "issues": {
