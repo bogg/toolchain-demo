@@ -36,7 +36,6 @@
       {
         "type": "selectfieldset",
         "key": "type",
-        "title": "Repository type",
         "titleMap": {
           "new": "New",
           "fork": "Fork",
