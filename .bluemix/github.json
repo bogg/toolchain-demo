@@ -28,7 +28,7 @@
     "form": [
       {
         "type": "validator",
-        "url": "https://localhost:3800/devops/setup/bm-helper/custom_github_helper.html"
+        "url": "/devops/setup/bm-helper/custom_github_helper.html"
       },
       {
         "type": "table",
